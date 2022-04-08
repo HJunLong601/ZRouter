@@ -1,0 +1,14 @@
+
+
+include ':app'
+include ':commonlib'
+
+include ':test-module-java'
+include ':test-module-kotlin'
+
+include ':zrouter:zrouter-annotation'
+include ':zrouter:zrouter-compiler'
+include ':zrouter:zrouter-api'
+
+
+

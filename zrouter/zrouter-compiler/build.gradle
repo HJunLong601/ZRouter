@@ -1,0 +1,18 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+
+    implementation project(':zrouter:zrouter-annotation')
+
+    implementation 'com.squareup:javapoet:1.13.0'
+    implementation 'org.apache.commons:commons-lang3:3.5'
+    implementation 'org.apache.commons:commons-collections4:4.1'
+
+    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc7'
+    compileOnly 'com.google.auto.service:auto-service-annotations:1.0-rc7'
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

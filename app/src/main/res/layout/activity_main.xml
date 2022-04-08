@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日志TAG:ZRouter"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tv_channel_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_java_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="java模块登录"
+                android:layout_marginEnd="15dp"/>
+
+            <Button
+                android:id="@+id/btn_kotlin_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kotlin模块登录"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</layout>
